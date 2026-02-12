@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+    font-family: "Dancing Script", cursive;
+}
+
+
+.firstH1 {
+    background-color: seagreen;
+    font-size: 35px;
+
+}
+
+
+.secondH1 {
+    background-color: pink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+
+}
+
+
+.para {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}

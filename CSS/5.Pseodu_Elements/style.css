@@ -1,0 +1,31 @@
+/* input{
+    background-color: aqua;
+}
+
+
+
+input:hover{
+    background-color: red;
+}
+ */
+
+.userInput{
+   background-color: aqua;
+}
+
+
+/* .userInput:hover{
+    background-color: green;
+} */
+
+
+/* .userInput:active{
+    background-color: blueviolet;
+} */
+
+
+
+.userInput:focus{
+    background-color: seagreen;
+}
+
