@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.parent {
+    width: 100%;
+    min-height: 100vh;
+    background-color: blueviolet;
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.child {
+    width: 320px;
+    height: 250px;
+    border: 3px solid grey;
+    background-color: white;
+    margin-top: 50px;
+}
