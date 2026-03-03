@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    background-color: blueviolet;
+    width: 100%;
+    height: 50vh;
+}
+
+.child{
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+}
+
+
+@media (max-width:500px) {
+    .parent{
+        background-color: brown;
+    }
+
+    .child{
+        width: 100%;
+        height: 80%;
+    }
+}
