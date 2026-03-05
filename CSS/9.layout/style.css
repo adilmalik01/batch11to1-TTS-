@@ -27,9 +27,6 @@ nav ul {
 }
 
 
-
-
-
 .main {
     width: 100%;
     height: 87vh;
@@ -106,4 +103,29 @@ nav ul {
     transform: translateY(-10%);
     box-shadow: rgba(85, 225, 25, 0.25) 0px 54px 55px, rgba(85, 225, 25, 0.12) 0px -12px 30px, rgba(85, 225, 25, 0.12) 0px 4px 6px, rgba(85, 225, 25, 0.17) 0px 12px 13px, rgba(85, 225, 25, 0.09) 0px -3px 5px;
 
+}
+
+
+
+
+
+@media (max-width:870px) {
+    .main {
+        height: 100vh ;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .leftSide{
+        width: 100%;
+    }
+
+    .rightSide{
+        width: 100%;
+    }
+
+    .rightSide img{
+        width: 40%;
+        height: 75%;
+    }
 }
