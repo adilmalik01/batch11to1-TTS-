@@ -20,5 +20,4 @@ if (percentage >= 90) {
     console.log("FAIL");
 }else {
     console.log("Invalid Percentage");
-
 }
