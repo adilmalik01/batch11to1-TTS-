@@ -2,17 +2,16 @@
 
 
 
-// function simpleFunction() {
+// function Logic() {
 //     let a = 10
 //     let b = 20
 
 //     let sum = a + b
 //     console.log(sum);
-
 // }
 
-// simpleFunction()  // Function Call 
-// simpleFunction()  // Function Call 
+// Logic()
+// Logic()
 
 
 
@@ -20,17 +19,21 @@
 
 
 
-function printStudent(studentName,StudentAge) {
 
 
-    console.log(studentName, StudentAge);
 
+
+
+function printStudent(name) {
+
+    console.log(name);
 
 }
 
+printStudent("Adil")
+printStudent("Ali")
 
-printStudent("ali", 20)
-printStudent("Hamza",23)
+
 
 
 

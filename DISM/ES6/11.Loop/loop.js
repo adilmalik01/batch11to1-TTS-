@@ -1,26 +1,35 @@
 
-// let students = ["adil", "ali", "hamza", "saqib", "aqib"]
+
+let students = ["Ali", "Hamza", "Hassan", "Hussain", "Adil", "Aqib", "Hello"]
 // console.log(students[0]);
 // console.log(students[1]);
+// console.log(students[3]);
+
 
 
 // FOR
 
+// i + 1
+
 // for (let i = 0; i < students.length; i++) {
 //     console.log(students[i]);
-
 
 // }
 
 
-let userInput = parseInt(prompt("Enter table Number !"))
+let userPrompt = parseInt(prompt("Enter your number !"))
+let userRange = parseInt(prompt("Enter your Range !"))
 
 
-for (let i = 1; i <= 10; i++) {
-    // console.log("2 x" + i + "=" + 2 * i);
-    console.log(`${userInput} x ${i} = ${userInput * i}`);
+for (let i = 1; i <= userRange; i++) {
+
+    console.log(`${userPrompt} x ${i} = ${userPrompt * i}`);
+
 
 }
+
+
+
 
 // ES6
 // FOREACH
