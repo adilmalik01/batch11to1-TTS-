@@ -1,6 +1,6 @@
 
 
-let students = ["Ali", "Hamza", "Hassan", "Hussain", "Adil", "Aqib", "Hello"]
+// let students = ["Ali", "Hamza", "Hassan", "Hussain", "Adil", "Aqib", "Hello"]
 // console.log(students[0]);
 // console.log(students[1]);
 // console.log(students[3]);
@@ -17,22 +17,51 @@ let students = ["Ali", "Hamza", "Hassan", "Hussain", "Adil", "Aqib", "Hello"]
 // }
 
 
-let userPrompt = parseInt(prompt("Enter your number !"))
-let userRange = parseInt(prompt("Enter your Range !"))
+// let userPrompt = parseInt(prompt("Enter your number !"))
+// let userRange = parseInt(prompt("Enter your Range !"))
 
 
-for (let i = 1; i <= userRange; i++) {
+// for (let i = 1; i <= userRange; i++) {
 
-    console.log(`${userPrompt} x ${i} = ${userPrompt * i}`);
+//     console.log(`${userPrompt} x ${i} = ${userPrompt * i}`);
 
 
+// }
+
+
+
+let students_name = ["Ali", "Hamza", "Hassan", "Hussain", "Adil", "Aqib", "Hello"]
+
+// ES6
+// FOREACH
+
+
+// students.forEach((student) => {
+//     console.log(student);
+// })
+
+
+
+// MAP
+// FOR IN
+let user = {
+    name: "adil",
+    age: 343,
+}
+
+// console.log(user["name"]);
+// console.log(user["age"]);
+
+for (let key in user) {
+    console.log(key);
+    console.log(user[key]);
 }
 
 
 
 
-// ES6
-// FOREACH
-// MAP
-// FOR IN
-// FOR OF 
+// FOR OF
+// for (let student of students_name) {
+//     console.log(student);
+// }
+
